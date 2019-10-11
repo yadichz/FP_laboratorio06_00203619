@@ -1,0 +1,8 @@
+acum=0
+X=int(input("Ingresa el numero: "))
+
+while n>0:
+    Y=X%10
+    acum=(acum*10)+Y
+    X=X//10
+print(acum)

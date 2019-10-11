@@ -1,0 +1,19 @@
+input("Promoción de llevarse 3 películas por el precio de las 2 más baratas")
+
+x1 = float(input("Ingrese el precio de la primera pelicula: "))
+
+x2 = float(input("Ingrese el precio de la segunda pelicula: "))
+
+x3 = float(input("Ingrese el precio de la tercera pelicula: "))
+
+if(x1<x2<x3):
+    print("El precio a pagar es: ")
+    print(x1+x2)
+    
+if(x2<x3<x1):
+    print("El precio a pagar es: ")
+    print(x2+x3)
+    
+if(x3<x1<x2):
+    print("El precio a pagar es: ")
+    print(x1+x2)

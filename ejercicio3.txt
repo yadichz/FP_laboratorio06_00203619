@@ -1,0 +1,12 @@
+s=str
+contador=0
+while s!="n":
+    n=int(input("Ingresa el numero: "))
+    if n%2==0:
+        contador=contador+1
+        s=str(input("Ingrese S para continuar o N para finalizar: "))
+    
+    else:
+        input("El numero ingresado no es par")
+    
+input("Ha ingresado "+ str(contador)+" numeros pares")

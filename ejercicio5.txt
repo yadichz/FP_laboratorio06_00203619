@@ -1,0 +1,33 @@
+print("CAJERO IDK")
+n=0
+y=0
+z=0
+saldo=1000
+while n!=4:
+    print("Seleccione una opcion")
+    print("1-Saldo")
+    print("2-Retiro")
+    print("3-Deposito")
+    print("4-Salir")
+    
+    n=int(input())
+    
+    if n==1:
+        print("Saldo: $"+ str(saldo))
+        
+    elif n==2:
+        print("Ingrese la cantitad que desea retirar: ")
+        y=int(input())
+        saldo=saldo-y
+        print("Su saldo actual es "+str(saldo))
+        
+        if y>saldo:
+            print("La cantidad que desea retirar es mayor al saldo de su cuenta.")
+    
+    elif n==3:
+        print("Ingrese la cantitad que desea depositar: ")
+        z=int(input())
+        saldo=saldo+z
+        print("Su saldo actual es "+str(saldo))
+
+print("Gusbai")

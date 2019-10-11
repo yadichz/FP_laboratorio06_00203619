@@ -1,0 +1,6 @@
+x= int(input("Ingrese el numero en que iniciara el rango: "))
+y= int(input("Ingrese el numero en que terminara el rango: "))
+n=int(input("Ingrese el numero del cual desea saber los multiplos: "))
+for i in range(x, y):
+    if i%n==0:
+        print(i)
